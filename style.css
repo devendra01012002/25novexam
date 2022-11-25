@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    height:15vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .icon{
+    color: white;
+    display: flex;
+    font-size: 2rem;
+}
+.navbar .option a{
+    color:white;
+    text-decoration: none;
+    margin: 5px;
+}
+.navbar .option a:hover{
+    color: green;
+}
+.mobile{
+    height: 85vh;
+    width: 100vw;
+    background-image: url(https://www.hdwallpapers.in/download/bubbles_water_purple_4k_5k_hd_abstract-1280x720.jpg);
+}
+.mobile .mobileimage img{
+    height: 60vh;
+}
+.mobile .mobileimage .imgmobile{
+    height: 70vh;
+    background-color: white;
+    padding-top: 8vh;
+    border-radius: 20px;
+}
+.mobilediv{
+    height: 85vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile .para p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+.mobile .para button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+    border:none;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3rem;
+}
+.itemimage{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 40px;
+}
+.itemimage div{
+    text-align: center;
+}
+.free{
+    text-align: center;
+    background-color: rgb(226, 43, 226);
+    height: 50vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    
+}
+.listupper{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    padding: 30vh;
+    
+}
+.listupper .list{
+    display: flex;
+    flex-direction: column;
+    width: 10;
+}
+.listupper select{
+    width: 60vw;
+    height: 10vh;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://www.hdwallpapers.in/download/bubbles_water_purple_4k_5k_hd_abstract-1280x720.jpg);
+    height: 80vh;
+    width: 100%;
+    color: white;
+}
+.ready h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ready button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.readyimage{
+    background-image:url(backgroundimage.jpeg);
+    height: 80vh;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headlast{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+     padding: 5vh;
+     font-size: 1.5rem;
+}
